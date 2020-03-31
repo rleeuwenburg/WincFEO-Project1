@@ -1,17 +1,19 @@
+todo colortoggle
 
+1. setup html
+- basic setup, connect CSS and JS files
+- h1 page Title
+- menubar, with 1 button (hamburger)
+    - menu (ul)
+    - li's with radiobuttons and label
+- h2 with text of displayed colour
 
-Feedback:
-Je programma werkt ✅
-Je bent ook toegekomen aan de Bonus, goed om dat in een aparte files te doen 👍
-Je HTML structuur ziet er netjes uit.
-Slim om buttons in je li te stoppen
-Je hebt DOMContentLoaded juist gebruikt 🎉
-Je hebt function expressions gebruikt 🎉
-Je schrijft goede kleine functies die maar 1 ding doen. Top.
-Verbeterpunten:
+2. CSS
+- set colours for menu/navbar to make visible
+- set standard background colour of page (lightgrey)
+- set backgroundcolour for menu
+- set backgroundcolour for menubuttons
+- make menu appear/disappear with transitions
+- whatever extra styling is needed/wanted 
 
-Je code is niet zo DRY. De functies die je de achtergrondkleur veranderen, doen allemaal vrijwel hetzelfde, maar dan met een andere kleur. Wellicht 1 functie van maken, met een argument? Check de FAQ: https://www.notion.so/wincacademy/Wat-is-DRY-b1ea8e1310a943c2bfe348f5f1df8102)
-
-In plaats van alle huidige kleurenclasses weg te halen en 1 class toe te voegen aan je document body, kun je ook de huidige class (1 class) vervangen door 1 nieuwe. Bijvoorbeeld simpelweg:
-
-document.body.style.background = ‘green’; (Je had zelf overigens ook al in comments geschreven dat dit beter kon, goed gezien) 👍
+3. JavaScript
