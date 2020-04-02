@@ -17,3 +17,6 @@ todo colortoggle
 - whatever extra styling is needed/wanted 
 
 3. JavaScript
+- eventlistener DOM content loaded
+- eventlistener click hamburger (open/close menu)
+- eventlisteners click radiobuttons (change background color in DOM)
