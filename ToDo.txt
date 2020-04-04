@@ -1,22 +1,24 @@
 todo colortoggle
 
 1. setup html
-- basic setup, connect CSS and JS files
-- h1 page Title
-- menubar, with 1 button (hamburger)
-    - menu (ul)
-    - li's with radiobuttons and label
+x basic setup, connect CSS and JS files
+x h1 page Title
+x menubar, with 1 button (hamburger)
+    x menu (ul)
+    x li's with radiobuttons and label
 - h2 with text of displayed colour
 
 2. CSS
-- set colours for menu/navbar to make visible
-- set standard background colour of page (lightgrey)
-- set backgroundcolour for menu
-- set backgroundcolour for menubuttons
+x set colours for menu/navbar to make visible
+x set standard background colour of page (lightgrey)
+x set backgroundcolour for menu
+x set backgroundcolour for menubuttons
 - make menu appear/disappear with transitions
 - whatever extra styling is needed/wanted 
 
 3. JavaScript
-- eventlistener DOM content loaded
+- 
 - eventlistener click hamburger (open/close menu)
 - eventlisteners click radiobuttons (change background color in DOM)
+- function to write backgroundcolor in DOM (document), include text (name of color)
+- eventlistener DOM content loaded
