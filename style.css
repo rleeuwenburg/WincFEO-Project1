@@ -23,6 +23,18 @@ nav {
   background-position: center;
 }
 
+#colormenu-button:hover {
+  opacity: 0.6;
+}
+
+.colormenu {
+  display: none;
+}
+
+.colormenu-appears {
+  display: flex;
+}
+
 h1 {
   margin-left: 20px;
   color: darkslategray;
