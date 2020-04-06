@@ -6,7 +6,7 @@ x h1 page Title
 x menubar, with 1 button (hamburger)
     x menu (ul)
     x li's with radiobuttons and label
-- h2 with text of displayed colour
+x h2 with text of displayed colour
 
 2. CSS
 x set colours for menu/navbar to make visible
@@ -17,8 +17,8 @@ x set backgroundcolour for menubuttons
 - whatever extra styling is needed/wanted 
 
 3. JavaScript
-- 
-- eventlistener click hamburger (open/close menu)
-- eventlisteners click radiobuttons (change background color in DOM)
-- function to write backgroundcolor in DOM (document), include text (name of color)
-- eventlistener DOM content loaded
+x test functie met 1 knop (home), daarna 1 functie voor alle knoppen
+x eventlistener click hamburger (open/close menu)
+x eventlisteners click radiobuttons (change background color in DOM)
+x function to write backgroundcolor in DOM (document), include text (name of color)
+x eventlistener DOM content loaded

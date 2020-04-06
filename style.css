@@ -1,23 +1,28 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: lightgray;
+  background-color: gray;
 }
 
-nav {
+header {
   display: flex;
-  flex: wrap;
+  flex-wrap: nowrap;
   background-color: lightskyblue;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 60px;
+  height: auto;
+}
+
+nav {
+  position: relative;
+  display: inline-block;
 }
 
 #colormenu-button {
   height: 60px;
   width: 60px;
   background-color: lightslategrey;
-  background-image: url(/burgerbutton.png);
+  background-image: url(burgerbutton.png);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
@@ -29,15 +34,24 @@ nav {
 
 .colormenu {
   display: none;
+  position: absolute;
+  transition: all 1.5s;
 }
 
 .colormenu-appears {
-  display: flex;
+  display: block;
+  position: absolute;
+  z-index: 100;
 }
 
 h1 {
+  margin: auto;
   margin-left: 20px;
-  color: darkslategray;
+  color: #111;
+}
+
+h2 {
+  color: #111;
 }
 
 ul {
@@ -67,7 +81,7 @@ input {
 }
 
 #li-home {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 #li-red {
